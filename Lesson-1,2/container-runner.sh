@@ -1,0 +1,1 @@
+docker run -d -p 80:80 -v custom-volume:/etc/nginx --network=custom-bridge-network custom-nginx

@@ -1,0 +1,19 @@
+version: '3.8'
+
+networks:
+  custom-bridge-network:
+        
+volumes:
+  custom-volume:
+
+
+services:
+  custom-nginx-with-compose:
+    image: nginx:latest
+    ports: 
+      - 80:80
+    networks: 
+      - custom-bridge-network
+    volumes: 
+      - custom-volume:/etc/nginx
+
