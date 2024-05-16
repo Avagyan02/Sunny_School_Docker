@@ -1,0 +1,1 @@
+kubectl run my-custom-nginx-pod --image=nginx
