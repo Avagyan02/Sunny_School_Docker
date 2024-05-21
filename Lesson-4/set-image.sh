@@ -1,0 +1,1 @@
+kubectl set image deployment/custom-nginx-deployment nginx=nginx:1.21.1
